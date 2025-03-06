@@ -16,6 +16,6 @@ python3 mongo-tools/generate-data.py
 python3 mongo-tools/add-subscribers.py
 print_success "Subscribers added."
 
-source $SCRIPT_DIRECTORY/deploy-ran.sh
+# source $SCRIPT_DIRECTORY/deploy-ran.sh
 
-source $SCRIPT_DIRECTORY/ping-test.sh
+# source $SCRIPT_DIRECTORY/ping-test.sh
