@@ -36,7 +36,7 @@ ask_question "2. Which protocol does UERANSIM use to emulate the radio link?" \
 ask_question "3. What is a major limitation of UERANSIM?" \
              "High CPU usage" "Does not simulate a PHY layer" "Only works with Open5GS" "Requires SDR hardware" 2
 
-ask_question "4. Compared to real 5G networks, UERANSIM tends to:" \
+ask_question "4. Compared to full stack 5G RAN implementations, UERANSIM tends to:" \
              "Overestimate throughput" "Underestimate latency" "Not account radio channel conditions" "All of the above" 4
 
 ask_question "5. What would be a valid use case for UERANSIM?" \
@@ -50,5 +50,5 @@ if [ "$score" -eq 5 ]; then
     echo "Excellent!"
 elif [ "$score" -ge 3 ]; then
     echo "Good job! You have a decent understanding."\else
-    echo "Keep learning!"
+    echo "Keep learning and feel free to ask questions! "
 fi
